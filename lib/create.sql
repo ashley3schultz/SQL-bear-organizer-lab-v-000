@@ -1,5 +1,5 @@
 CREATE TABLE bears (
-  id INTEGER PRIMMARY KEY,
+  id INTEGER PRIMARY KEY,
   name TEXT,
   age INTEGER,
   gender TEXT NOT NULL CHECK (gender IN ('M', 'F')),
